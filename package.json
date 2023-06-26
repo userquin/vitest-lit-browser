@@ -13,7 +13,7 @@
     "preview": "vite preview",
     "test": "vitest",
     "coverage": "vitest run --coverage",
-    "test:stackblitz": "BROWSER_PROVIDER=none vitest"
+    "test:stackblitz": "BROWSER_PROVIDER=stackblitz vitest"
   },
   "dependencies": {
     "lit": "^2.2.5"
