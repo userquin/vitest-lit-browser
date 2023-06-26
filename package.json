@@ -1,0 +1,25 @@
+{
+  "name": "@vitest/example-lit-browser",
+  "version": "0.0.0",
+  "private": true,
+  "packageManager": "pnpm@8.6.3",
+  "files": [
+    "dist",
+    "types"
+  ],
+  "scripts": {
+    "test": "vitest",
+    "test:stackblitz": "BROWSER_POVIDER=stackblitz vitest"
+  },
+  "dependencies": {
+    "lit": "^2.2.5"
+  },
+  "devDependencies": {
+    "@vitest/browser": "file:vitest-browser-0.32.2.tgz",
+    "vite": "^4.3.9",
+    "vitest": "file:vitest-0.32.2.tgz"
+  },
+  "stackblitz": {
+    "startCommand": "pnpm run test:stackblitz"
+  }
+}
