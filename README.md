@@ -6,6 +6,8 @@ This repo is using a custom `vitest` and `@vitest/browser` package versions from
 
 ## Run
 
+This repo is using [pnpm](https://pnpm.io) as package manager.
+
 `pnpm install && pnpm run test`
 
 <!--
