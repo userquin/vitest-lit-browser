@@ -8,6 +8,4 @@ This repo is using a custom `vitest` and `@vitest/browser` package versions from
 
 `pnpm install && pnpm run test`
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/userquin/vitest-lit-browser)
-
-
+# [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/userquin/vitest-lit-browser)
