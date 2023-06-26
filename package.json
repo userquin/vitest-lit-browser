@@ -8,6 +8,8 @@
     "types"
   ],
   "scripts": {
+    "dev": "vite",
+    "build": "vite build",
     "test": "vitest",
     "test:stackblitz": "BROWSER_POVIDER=stackblitz vitest"
   },
