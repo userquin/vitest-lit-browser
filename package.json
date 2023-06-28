@@ -12,8 +12,7 @@
     "build": "vite build",
     "preview": "vite preview",
     "test": "vitest",
-    "coverage": "vitest run --coverage",
-    "test:stackblitz": "BROWSER_PROVIDER=stackblitz vitest"
+    "coverage": "vitest run --coverage"
   },
   "dependencies": {
     "lit": "^2.2.5"
@@ -24,6 +23,6 @@
     "vitest": "file:vitest-0.32.2.tgz"
   },
   "xstackblitz": {
-    "startCommand": "pnpm run test:stackblitz"
+    "startCommand": "pnpm run test"
   }
 }
