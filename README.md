@@ -22,7 +22,7 @@ If you want to run your fork of this repository in StackBlitz, you **NEED** to i
 
 Once you've generated `vitest` and `@vitest/browser` in your local, uninstall both dev dependencies in your local fork in this repository, **don't remove the corresponding `tgz` files before uninstalling the dependencies**:
 - run `pnpm remove -D @vitest/browser`
-- run `pnpm remove -D @vitest`
+- run `pnpm remove -D vitest`
 
 Override both `tar.gz` files in your local fork in this repo and add both dependencies using the `file:` protocol:
 - `pnpm add -D ./vitest-0.xx.z.tgz`
