@@ -1,6 +1,6 @@
-# Vitest Browser lit
+# Vitest Browser Lit
 
-Testing [lit](https://lit.dev) application with [@vitest/browser](https://github.com/vitest-dev/vitest) in the browser.
+Testing [Lit](https://lit.dev) application with [@vitest/browser](https://github.com/vitest-dev/vitest) in the browser.
 
 This repo is using a custom `vitest` and `@vitest/browser` package versions from [this PR](https://github.com/vitest-dev/vitest/pull/3584).
 
